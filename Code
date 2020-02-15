@@ -1,3 +1,7 @@
+/*
+Add the following lines in your Selenium BaseTest class
+*/
+
 System.setProperty("webdriver.chrome.driver", /path/to chromedriver);
 ChromeOptions options = new ChromeOptions();
 options.addArguments("--window-size=1024,768");
